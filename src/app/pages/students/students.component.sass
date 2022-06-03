@@ -1,0 +1,98 @@
+/* Responsive Styles */
+@media screen and (max-width: 767px)
+    .content
+        display: flex
+        margin: 0
+        padding: 0
+        max-width: 767px
+        flex-direction: column
+        align-items: center
+        overflow: auto
+
+@media screen and (max-width: 575px)
+    .content
+        display: flex
+        margin: 0
+        padding: 0
+        max-width: 575px
+        flex-direction: column
+        align-items: center
+        overflow: auto
+
+.container-card
+    padding: 24px
+    width: 97%
+
+.table-container
+    position: relative
+    max-height: 600px
+    min-height: 100px
+    width: 100% !important
+    overflow: auto
+
+.toolbar-spacer
+    flex: 1 1 auto
+
+table
+    width: 100%
+
+tr.example-detail-row
+    height: 0
+
+tr.example-element-row:not(.example-expanded-row):hover
+    background: whitesmoke
+
+tr.example-element-row:not(.example-expanded-row):active
+    background: #efefef
+
+.example-element-row td
+    border-bottom-width: 0
+
+.example-element-detail
+    overflow: hidden
+    display: flex
+
+.example-element-diagram
+    min-width: 98%
+    border: 2px solid black
+    padding: 8px
+    font-weight: lighter
+    margin: 8px 0
+    height: 104px
+
+.example-element-symbol
+    font-weight: bold
+    font-size: 40px
+    line-height: normal
+
+.example-element-description
+    padding: 16px
+
+    &-attribution
+        opacity: 0.5
+
+.bg-header
+    background-color: #6CC174 !important
+
+.label-header
+    color: white
+    font-weight: bold
+    text-align: center
+
+.label-center
+    text-align: center
+
+.mat-form-field
+    font-size: 14px
+    width: 100%
+
+.label-grades-red
+    color: red
+
+.label-grades-yellow
+    color: yellow
+
+.label-grades-green
+    color: green
+.white-color
+    color: white
