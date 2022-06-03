@@ -7,6 +7,11 @@ import {
 } from '../app/pages';
 
 const routes: Routes = [
+  {
+    path: "",
+    redirectTo: "login",
+    pathMatch: 'full' 
+  },
   { path: 'login', component: LoginComponent },
   { path: 'students', component: StudentsComponent }
 ];
